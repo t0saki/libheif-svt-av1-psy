@@ -7,7 +7,8 @@
 
 git clone -b master --depth 1 https://github.com/gianni-rosato/svt-av1-psy.git
 
-cd svt-av1-psy
+mv svt-av1-psy SVT-AV1
+cd SVT-AV1
 cd Build/linux
 
 ./build.sh release static no-apps prefix=$(pwd)/install install
